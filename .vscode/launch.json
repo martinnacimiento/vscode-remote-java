@@ -1,38 +1,15 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - App",
-            "request": "launch",
-            "mainClass": "edu.unam.app.App"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - main",
-            "request": "launch",
-            "mainClass": "main",
-            "projectName": "test"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
-            "stopOnEntry": false,
-            "mainClass": "main.java.sample.App",
-            "args": "--enable-preview",
-            "projectName": "sample"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-App",
-            "request": "launch",
-            "mainClass": "App"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "edu.unam.app.App",
+      "projectName": "app"
+    }
+  ]
 }
