@@ -18,7 +18,7 @@ ENV MAVEN_CONFIG /root/.m2
 
 # Configure apt
 ENV DEBIAN_FRONTEND=noninteractive
-RUN yum update \
+RUN yum -y update \
     && yum -y install apt-utils dialog 2>&1 \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
